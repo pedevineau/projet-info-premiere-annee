@@ -1,0 +1,260 @@
+# Structure YAML
+
+urlCarte: C:/Users/user/workspace/Pandemie/images/tenochitlanReduit.png
+
+Metropole:
+  nom: Tenochitlan
+  ville:
+    - nom: Texcoco
+      populationInitiale: 20320
+      sains: 20320
+      immunises: 0
+      malades: 0
+      morts: 0
+      medecins: 0
+      militaires: 0
+      tauxMobilite: 0.0
+      quarantaine: false
+    - nom: Tlateloco
+      populationInitiale: 31655
+      sains: 31655
+      immunises: 0
+      malades: 0
+      morts: 0
+      medecins: 0
+      militaires: 0
+      tauxMobilite: 0.0
+      quarantaine: false
+    - nom: Acamapichtli
+      populationInitiale: 12600
+      sains: 12600
+      immunises: 0
+      malades: 0
+      morts: 0
+      medecins: 0
+      militaires: 0
+      tauxMobilite: 0.0
+      quarantaine: false
+    - nom: Azcapotzalco
+      populationInitiale: 15500
+      sains: 15500
+      immunises: 0
+      malades: 0
+      morts: 0
+      medecins: 0
+      militaires: 0
+      tauxMobilite: 0.0
+      quarantaine: false
+    - nom: Tepanec
+      populationInitiale: 8190
+      sains: 8190
+      immunises: 0
+      malades: 0
+      morts: 0
+      medecins: 0
+      militaires: 0
+      tauxMobilite: 0.0
+      quarantaine: false
+    - nom: Chelco
+      populationInitiale: 9317
+      sains: 9317
+      immunises: 0
+      malades: 0
+      morts: 0
+      medecins: 0
+      militaires: 0
+      tauxMobilite: 0.0
+      quarantaine: false
+    - nom: Itzcoatl
+      populationInitiale: 16570
+      sains: 13480
+      immunises: 0
+      malades: 0
+      morts: 0
+      medecins: 0
+      militaires: 0
+      tauxMobilite: 0.0
+      quarantaine: false
+    - nom: Maxtla
+      populationInitiale: 24260
+      sains: 14260
+      immunises: 0
+      malades: 0
+      morts: 0
+      medecins: 0
+      militaires: 0
+      tauxMobilite: 0.0
+      quarantaine: false
+    - nom: Nezahualcoyotl
+      populationInitiale: 17800
+      sains: 19210
+      immunises: 0
+      malades: 0
+      morts: 0
+      medecins: 0
+      militaires: 0
+      tauxMobilite: 0.0
+      quarantaine: false
+    - nom: Magliabechiano
+      populationInitiale: 13200
+      sains: 13200
+      immunises: 0
+      malades: 0
+      morts: 0
+      medecins: 0
+      militaires: 0
+      tauxMobilite: 0.0
+      quarantaine: false
+    - nom: Cihuacoatl
+      populationInitiale: 23400
+      sains: 23400
+      immunises: 0
+      malades: 0
+      morts: 0
+      medecins: 0
+      militaires: 0
+      tauxMobilite: 0.1
+      quarantaine: false
+    - nom: Tizoc
+      populationInitiale: 38600
+      sains: 38600
+      immunises: 0
+      malades: 0
+      morts: 0
+      medecins: 0
+      militaires: 0
+      tauxMobilite: 0.1
+      quarantaine: false
+    - nom: Palais du Roi
+      populationInitiale: 44879
+      sains: 44879
+      immunises: 0
+      malades: 0
+      morts: 0
+      medecins: 100
+      militaires: 300
+      tauxMobilite: 0.0
+      quarantaine: false
+    - nom: Nezahualpilli
+      populationInitiale: 29400
+      sains: 29400
+      immunises: 0
+      malades: 0
+      morts: 0
+      medecins: 0
+      militaires: 0
+      tauxMobilite: 0.0
+      quarantaine: false
+    - nom: Soconusco
+      populationInitiale: 12600
+      sains: 12600
+      immunises: 0
+      malades: 0
+      morts: 0
+      medecins: 0
+      militaires: 0
+      tauxMobilite: 0.0
+      quarantaine: false
+    - nom: Trocadero
+      populationInitiale: 13400
+      sains: 13400
+      immunises: 0
+      malades: 0
+      morts: 0
+      medecins: 0
+      militaires: 0
+      tauxMobilite: 0.0
+      quarantaine: false
+    - nom: Ahuitzotl
+      populationInitiale: 19450
+      sains: 19450
+      immunises: 0
+      malades: 0
+      morts: 0
+      medecins: 0
+      militaires: 0
+      tauxMobilite: 0.0
+      quarantaine: false
+    - nom: Campeche
+      populationInitiale: 16000
+      sains: 16000
+      immunises: 0
+      malades: 0
+      morts: 0
+      medecins: 0
+      militaires: 0
+      tauxMobilite: 0.0
+      quarantaine: false
+    - nom: Cuauhtemoc
+      populationInitiale: 9800
+      sains: 9800
+      immunises: 0
+      malades: 0
+      morts: 0
+      medecins: 0
+      militaires: 0
+      tauxMobilite: 0.0
+      quarantaine: false
+    - nom: Huitzilopochtli
+      populationInitiale: 9000
+      sains: 9000
+      immunises: 0
+      malades: 0
+      morts: 0
+      medecins: 0
+      militaires: 0
+      tauxMobilite: 0.1
+      quarantaine: false
+    - nom: Xoconochco
+      populationInitiale: 7800
+      sains: 7800
+      immunises: 0
+      malades: 0
+      morts: 0
+      medecins: 0
+      militaires: 0
+      tauxMobilite: 0.1
+      quarantaine: false
+    - nom: Tlatoani
+      populationInitiale: 6431
+      sains: 6431
+      immunises: 0
+      malades: 0
+      morts: 0
+      medecins: 0
+      militaires: 0
+      tauxMobilite: 0.0
+      quarantaine: false
+    - nom: Culhuacan
+      populationInitiale: 9417
+      sains: 9417
+      immunises: 0
+      malades: 0
+      morts: 0
+      medecins: 0
+      militaires: 0
+      tauxMobilite: 0.0
+      quarantaine: false
+    - nom: Calpixque
+      populationInitiale: 7658
+      sains: 7658
+      immunises: 0
+      malades: 0
+      morts: 0
+      medecins: 0
+      militaires: 0
+      tauxMobilite: 0.0
+      quarantaine: false
+    - nom: Oxitipan
+      populationInitiale: 8312
+      sains: 8312
+      immunises: 0
+      malades: 0
+      morts: 0
+      medecins: 0
+      militaires: 0
+      tauxMobilite: 0.0
+      quarantaine: false
+  medecinsDisponibles: 180
+  militairesDisponibles: 500
+  vaccins: 0

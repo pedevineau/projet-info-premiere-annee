@@ -1,0 +1,988 @@
+test: test
+arbre2: 
+   Maladie: 
+      tauxLetalite: 0.05
+      parametreVirulence: 1.3
+      objectifDeRecherche: 1000
+      niveauDeSoinDeBase: 4
+      nom: Grippe
+      pointsDeRecherche: 0
+   ArbreTechnologique: 
+   -  coutDeLaRecherche: 150
+      modificateurVaccinsFabriqueParMedecin: 0
+      modificateurEfficaciteMedecins: 1.1
+      modificateurMilitairesPourQuarantaine: 1.0
+      modificateurEfficaciteMilitaires: 1.0
+      avancementDeLaRecherche: 0
+      typeDeRecherche: medicale
+      nom: planteMedicinale
+   -  coutDeLaRecherche: 500
+      modificateurVaccinsFabriqueParMedecin: 0
+      modificateurEfficaciteMedecins: 2.4
+      modificateurMilitairesPourQuarantaine: 1.0
+      modificateurEfficaciteMilitaires: 1.0
+      avancementDeLaRecherche: 0
+      typeDeRecherche: medicale
+      nom: anesthesiant
+   -  coutDeLaRecherche: 1200
+      modificateurVaccinsFabriqueParMedecin: 4
+      modificateurEfficaciteMedecins: 1.5
+      modificateurMilitairesPourQuarantaine: 1.0
+      modificateurEfficaciteMilitaires: 1.0
+      avancementDeLaRecherche: 500
+      typeDeRecherche: medicale
+      nom: vaccins1
+   -  coutDeLaRecherche: 1000
+      modificateurVaccinsFabriqueParMedecin: 4
+      modificateurEfficaciteMedecins: 1.0
+      modificateurMilitairesPourQuarantaine: 1.0
+      modificateurEfficaciteMilitaires: 1.0
+      avancementDeLaRecherche: 0
+      typeDeRecherche: medicale
+      nom: vaccins2
+   -  coutDeLaRecherche: 800
+      modificateurVaccinsFabriqueParMedecin: 4
+      modificateurEfficaciteMedecins: 1.0
+      modificateurMilitairesPourQuarantaine: 1.0
+      modificateurEfficaciteMilitaires: 1.0
+      avancementDeLaRecherche: 0
+      typeDeRecherche: medicale
+      nom: vaccins3
+   -  coutDeLaRecherche: 250
+      modificateurVaccinsFabriqueParMedecin: 0
+      modificateurEfficaciteMedecins: 1.3
+      modificateurMilitairesPourQuarantaine: 1.0
+      modificateurEfficaciteMilitaires: 1.0
+      avancementDeLaRecherche: 250
+      typeDeRecherche: medicale
+      nom: savon
+   -  coutDeLaRecherche: 800
+      modificateurVaccinsFabriqueParMedecin: 0
+      modificateurEfficaciteMedecins: 3.0
+      modificateurMilitairesPourQuarantaine: 1.0
+      modificateurEfficaciteMilitaires: 1.2
+      avancementDeLaRecherche: 0
+      typeDeRecherche: medicale
+      nom: penicilline
+   -  coutDeLaRecherche: 500
+      modificateurVaccinsFabriqueParMedecin: 0
+      modificateurEfficaciteMedecins: 1.0
+      modificateurMilitairesPourQuarantaine: 0.3
+      modificateurEfficaciteMilitaires: 1.2
+      avancementDeLaRecherche: 0
+      typeDeRecherche: militaire
+      nom: barbeles
+   Pseudo: Entrez votre pseudo ici...
+   Metropole: 
+      ville: 
+      -  sains: 9073
+         medecins: 0
+         militaires: 20
+         immunises: 0
+         malades: 3
+         populationInitiale: 9076
+         quarantaine: false
+         tauxMobilite: 0.001
+         morts: 0
+         nom: EumelooosI
+      -  sains: 30046
+         medecins: 0
+         militaires: 0
+         immunises: 0
+         malades: 0
+         populationInitiale: 30046
+         quarantaine: false
+         tauxMobilite: 0.001
+         morts: 0
+         nom: EumelooosII
+      -  sains: 6049
+         medecins: 0
+         militaires: 0
+         immunises: 0
+         malades: 0
+         populationInitiale: 6049
+         quarantaine: false
+         tauxMobilite: 0.001
+         morts: 0
+         nom: EumelooosIII
+      -  sains: 5035
+         medecins: 0
+         militaires: 0
+         immunises: 0
+         malades: 0
+         populationInitiale: 5035
+         quarantaine: false
+         tauxMobilite: 0.001
+         morts: 0
+         nom: EumelooosIV
+      -  sains: 10032
+         medecins: 0
+         militaires: 0
+         immunises: 0
+         malades: 4
+         populationInitiale: 10036
+         quarantaine: false
+         tauxMobilite: 0.001
+         morts: 0
+         nom: EumelooosV
+      -  sains: 6234
+         medecins: 0
+         militaires: 0
+         immunises: 0
+         malades: 3681
+         populationInitiale: 9915
+         quarantaine: false
+         tauxMobilite: 0.01
+         morts: 214
+         nom: EumelooosVI
+      -  sains: 10043
+         medecins: 0
+         militaires: 0
+         immunises: 0
+         malades: 4
+         populationInitiale: 10047
+         quarantaine: false
+         tauxMobilite: 0.001
+         morts: 0
+         nom: EumelooosVII
+      -  sains: 10031
+         medecins: 0
+         militaires: 0
+         immunises: 0
+         malades: 0
+         populationInitiale: 10031
+         quarantaine: false
+         tauxMobilite: 0.001
+         morts: 0
+         nom: EumelooosVIII
+      -  sains: 10031
+         medecins: 0
+         militaires: 0
+         immunises: 0
+         malades: 0
+         populationInitiale: 10031
+         quarantaine: false
+         tauxMobilite: 0.001
+         morts: 0
+         nom: EumelooosIX
+      -  sains: 10029
+         medecins: 0
+         militaires: 0
+         immunises: 0
+         malades: 0
+         populationInitiale: 10029
+         quarantaine: false
+         tauxMobilite: 0.001
+         morts: 0
+         nom: EumelooosX
+      -  sains: 20017
+         medecins: 0
+         militaires: 0
+         immunises: 0
+         malades: 4
+         populationInitiale: 20021
+         quarantaine: false
+         tauxMobilite: 0.001
+         morts: 0
+         nom: EumelooosXI
+      -  sains: 6035
+         medecins: 0
+         militaires: 0
+         immunises: 0
+         malades: 0
+         populationInitiale: 6035
+         quarantaine: false
+         tauxMobilite: 0.001
+         morts: 0
+         nom: EumelooosXII
+      -  sains: 5034
+         medecins: 0
+         militaires: 0
+         immunises: 0
+         malades: 0
+         populationInitiale: 5034
+         quarantaine: false
+         tauxMobilite: 0.001
+         morts: 0
+         nom: EumelooosXIII
+      -  sains: 10035
+         medecins: 0
+         militaires: 0
+         immunises: 0
+         malades: 0
+         populationInitiale: 10035
+         quarantaine: false
+         tauxMobilite: 0.001
+         morts: 0
+         nom: EumelooosXIV
+      -  sains: 9238
+         medecins: 0
+         militaires: 0
+         immunises: 0
+         malades: 766
+         populationInitiale: 10004
+         quarantaine: false
+         tauxMobilite: 0.003828468612554978
+         morts: 35
+         nom: EumelooosXV
+      -  sains: 10036
+         medecins: 0
+         militaires: 0
+         immunises: 0
+         malades: 0
+         populationInitiale: 10036
+         quarantaine: false
+         tauxMobilite: 0.001
+         morts: 0
+         nom: EumelooosXVI
+      -  sains: 9233
+         medecins: 0
+         militaires: 0
+         immunises: 0
+         malades: 766
+         populationInitiale: 9999
+         quarantaine: false
+         tauxMobilite: 0.0038303830383038307
+         morts: 35
+         nom: EumelooosXVII
+      -  sains: 10034
+         medecins: 0
+         militaires: 0
+         immunises: 0
+         malades: 0
+         populationInitiale: 10034
+         quarantaine: false
+         tauxMobilite: 0.001
+         morts: 0
+         nom: EumelooosXVIII
+      -  sains: 10034
+         medecins: 0
+         militaires: 0
+         immunises: 0
+         malades: 0
+         populationInitiale: 10034
+         quarantaine: false
+         tauxMobilite: 0.001
+         morts: 0
+         nom: EumelooosXIX
+      -  sains: 20027
+         medecins: 0
+         militaires: 0
+         immunises: 0
+         malades: 0
+         populationInitiale: 20027
+         quarantaine: false
+         tauxMobilite: 0.001
+         morts: 0
+         nom: EumelooosXX
+      -  sains: 6034
+         medecins: 0
+         militaires: 0
+         immunises: 0
+         malades: 0
+         populationInitiale: 6034
+         quarantaine: false
+         tauxMobilite: 0.001
+         morts: 0
+         nom: EumelooosXXI
+      -  sains: 5035
+         medecins: 0
+         militaires: 0
+         immunises: 0
+         malades: 0
+         populationInitiale: 5035
+         quarantaine: false
+         tauxMobilite: 0.001
+         morts: 0
+         nom: EumelooosXXII
+      -  sains: 10031
+         medecins: 0
+         militaires: 0
+         immunises: 0
+         malades: 0
+         populationInitiale: 10031
+         quarantaine: false
+         tauxMobilite: 0.001
+         morts: 0
+         nom: EumelooosXXIII
+      -  sains: 10031
+         medecins: 0
+         militaires: 0
+         immunises: 0
+         malades: 0
+         populationInitiale: 10031
+         quarantaine: false
+         tauxMobilite: 0.001
+         morts: 0
+         nom: EumelooosXXIV
+      -  sains: 10031
+         medecins: 0
+         militaires: 0
+         immunises: 0
+         malades: 0
+         populationInitiale: 10031
+         quarantaine: false
+         tauxMobilite: 0.001
+         morts: 0
+         nom: EumelooosXXV
+      vaccins: 0
+      militairesDisponibles: 40
+      medecinsDisponibles: 100
+   urlCarte: C:/Users/user/workspace/Pandemie/images/atlantide-carte-1.jpg
+arbre: 
+   Maladie: 
+      tauxLetalite: 0.05
+      parametreVirulence: 1.3
+      objectifDeRecherche: 1000
+      niveauDeSoinDeBase: 4
+      nom: Grippe
+      pointsDeRecherche: 0
+   ArbreTechnologique: 
+   -  coutDeLaRecherche: 150
+      modificateurVaccinsFabriqueParMedecin: 0
+      modificateurEfficaciteMedecins: 1.1
+      modificateurMilitairesPourQuarantaine: 1.0
+      modificateurEfficaciteMilitaires: 1.0
+      avancementDeLaRecherche: 0
+      typeDeRecherche: medicale
+      nom: planteMedicinale
+   -  coutDeLaRecherche: 500
+      modificateurVaccinsFabriqueParMedecin: 0
+      modificateurEfficaciteMedecins: 2.4
+      modificateurMilitairesPourQuarantaine: 1.0
+      modificateurEfficaciteMilitaires: 1.0
+      avancementDeLaRecherche: 0
+      typeDeRecherche: medicale
+      nom: anesthesiant
+   -  coutDeLaRecherche: 1200
+      modificateurVaccinsFabriqueParMedecin: 4
+      modificateurEfficaciteMedecins: 1.5
+      modificateurMilitairesPourQuarantaine: 1.0
+      modificateurEfficaciteMilitaires: 1.0
+      avancementDeLaRecherche: 1100
+      typeDeRecherche: medicale
+      nom: vaccins1
+   -  coutDeLaRecherche: 1000
+      modificateurVaccinsFabriqueParMedecin: 4
+      modificateurEfficaciteMedecins: 1.0
+      modificateurMilitairesPourQuarantaine: 1.0
+      modificateurEfficaciteMilitaires: 1.0
+      avancementDeLaRecherche: 0
+      typeDeRecherche: medicale
+      nom: vaccins2
+   -  coutDeLaRecherche: 800
+      modificateurVaccinsFabriqueParMedecin: 4
+      modificateurEfficaciteMedecins: 1.0
+      modificateurMilitairesPourQuarantaine: 1.0
+      modificateurEfficaciteMilitaires: 1.0
+      avancementDeLaRecherche: 0
+      typeDeRecherche: medicale
+      nom: vaccins3
+   -  coutDeLaRecherche: 250
+      modificateurVaccinsFabriqueParMedecin: 0
+      modificateurEfficaciteMedecins: 1.3
+      modificateurMilitairesPourQuarantaine: 1.0
+      modificateurEfficaciteMilitaires: 1.0
+      avancementDeLaRecherche: 250
+      typeDeRecherche: medicale
+      nom: savon
+   -  coutDeLaRecherche: 800
+      modificateurVaccinsFabriqueParMedecin: 0
+      modificateurEfficaciteMedecins: 3.0
+      modificateurMilitairesPourQuarantaine: 1.0
+      modificateurEfficaciteMilitaires: 1.2
+      avancementDeLaRecherche: 0
+      typeDeRecherche: medicale
+      nom: penicilline
+   -  coutDeLaRecherche: 500
+      modificateurVaccinsFabriqueParMedecin: 0
+      modificateurEfficaciteMedecins: 1.0
+      modificateurMilitairesPourQuarantaine: 0.3
+      modificateurEfficaciteMilitaires: 1.2
+      avancementDeLaRecherche: 500
+      typeDeRecherche: militaire
+      nom: barbeles
+   Pseudo: Entrez votre pseudo ici...
+   Metropole: 
+      ville: 
+      -  sains: 9070
+         medecins: 0
+         militaires: 20
+         immunises: 0
+         malades: 0
+         populationInitiale: 9070
+         quarantaine: false
+         tauxMobilite: 0.001
+         morts: 0
+         nom: EumelooosI
+      -  sains: 29885
+         medecins: 0
+         militaires: 0
+         immunises: 0
+         malades: 0
+         populationInitiale: 29885
+         quarantaine: false
+         tauxMobilite: 0.001
+         morts: 0
+         nom: EumelooosII
+      -  sains: 6048
+         medecins: 0
+         militaires: 0
+         immunises: 0
+         malades: 0
+         populationInitiale: 6048
+         quarantaine: false
+         tauxMobilite: 0.001
+         morts: 0
+         nom: EumelooosIII
+      -  sains: 503
+         medecins: 0
+         militaires: 0
+         immunises: 0
+         malades: 4108
+         populationInitiale: 4611
+         quarantaine: false
+         tauxMobilite: 0.01
+         morts: 566
+         nom: EumelooosIV
+      -  sains: 249
+         medecins: 0
+         militaires: 0
+         immunises: 0
+         malades: 5550
+         populationInitiale: 5799
+         quarantaine: false
+         tauxMobilite: 0.01
+         morts: 4305
+         nom: EumelooosV
+      -  sains: 1300
+         medecins: 0
+         militaires: 0
+         immunises: 0
+         malades: 7769
+         populationInitiale: 9069
+         quarantaine: false
+         tauxMobilite: 0.01
+         morts: 942
+         nom: EumelooosVI
+      -  sains: 10042
+         medecins: 0
+         militaires: 0
+         immunises: 0
+         malades: 0
+         populationInitiale: 10042
+         quarantaine: false
+         tauxMobilite: 0.001
+         morts: 0
+         nom: EumelooosVII
+      -  sains: 3470
+         medecins: 0
+         militaires: 0
+         immunises: 0
+         malades: 5988
+         populationInitiale: 9458
+         quarantaine: false
+         tauxMobilite: 0.01
+         morts: 456
+         nom: EumelooosVIII
+      -  sains: 10032
+         medecins: 0
+         militaires: 0
+         immunises: 0
+         malades: 0
+         populationInitiale: 10032
+         quarantaine: false
+         tauxMobilite: 0.001
+         morts: 0
+         nom: EumelooosIX
+      -  sains: 1283
+         medecins: 0
+         militaires: 0
+         immunises: 0
+         malades: 7721
+         populationInitiale: 9004
+         quarantaine: false
+         tauxMobilite: 0.01
+         morts: 938
+         nom: EumelooosX
+      -  sains: 19946
+         medecins: 0
+         militaires: 0
+         immunises: 0
+         malades: 0
+         populationInitiale: 19946
+         quarantaine: false
+         tauxMobilite: 0.001
+         morts: 0
+         nom: EumelooosXI
+      -  sains: 1368
+         medecins: 0
+         militaires: 0
+         immunises: 0
+         malades: 4337
+         populationInitiale: 5705
+         quarantaine: false
+         tauxMobilite: 0.01
+         morts: 402
+         nom: EumelooosXII
+      -  sains: 159
+         medecins: 0
+         militaires: 0
+         immunises: 0
+         malades: 3043
+         populationInitiale: 3202
+         quarantaine: false
+         tauxMobilite: 0.01
+         morts: 2419
+         nom: EumelooosXIII
+      -  sains: 3471
+         medecins: 0
+         militaires: 0
+         immunises: 0
+         malades: 5988
+         populationInitiale: 9459
+         quarantaine: false
+         tauxMobilite: 0.01
+         morts: 456
+         nom: EumelooosXIV
+      -  sains: 9845
+         medecins: 0
+         militaires: 0
+         immunises: 0
+         malades: 193
+         populationInitiale: 10038
+         quarantaine: false
+         tauxMobilite: 0.001
+         morts: 7
+         nom: EumelooosXV
+      -  sains: 10034
+         medecins: 0
+         militaires: 0
+         immunises: 0
+         malades: 0
+         populationInitiale: 10034
+         quarantaine: false
+         tauxMobilite: 0.001
+         morts: 0
+         nom: EumelooosXVI
+      -  sains: 3101
+         medecins: 0
+         militaires: 0
+         immunises: 0
+         malades: 6319
+         populationInitiale: 9420
+         quarantaine: false
+         tauxMobilite: 0.01
+         morts: 509
+         nom: EumelooosXVII
+      -  sains: 3472
+         medecins: 0
+         militaires: 0
+         immunises: 0
+         malades: 6009
+         populationInitiale: 9481
+         quarantaine: false
+         tauxMobilite: 0.01
+         morts: 457
+         nom: EumelooosXVIII
+      -  sains: 9831
+         medecins: 0
+         militaires: 0
+         immunises: 0
+         malades: 208
+         populationInitiale: 10039
+         quarantaine: false
+         tauxMobilite: 0.0010359597569479032
+         morts: 8
+         nom: EumelooosXIX
+      -  sains: 800
+         medecins: 0
+         militaires: 0
+         immunises: 0
+         malades: 14852
+         populationInitiale: 15652
+         quarantaine: false
+         tauxMobilite: 0.01
+         morts: 3583
+         nom: EumelooosXX
+      -  sains: 1158
+         medecins: 0
+         militaires: 0
+         immunises: 0
+         malades: 4551
+         populationInitiale: 5709
+         quarantaine: false
+         tauxMobilite: 0.01
+         morts: 453
+         nom: EumelooosXXI
+      -  sains: 146
+         medecins: 0
+         militaires: 0
+         immunises: 0
+         malades: 2995
+         populationInitiale: 3141
+         quarantaine: false
+         tauxMobilite: 0.01
+         morts: 2407
+         nom: EumelooosXXII
+      -  sains: 3060
+         medecins: 0
+         militaires: 0
+         immunises: 0
+         malades: 6370
+         populationInitiale: 9430
+         quarantaine: false
+         tauxMobilite: 0.01
+         morts: 515
+         nom: EumelooosXXIII
+      -  sains: 354
+         medecins: 0
+         militaires: 0
+         immunises: 0
+         malades: 7398
+         populationInitiale: 7752
+         quarantaine: false
+         tauxMobilite: 0.01
+         morts: 2209
+         nom: EumelooosXXIV
+      -  sains: 222
+         medecins: 0
+         militaires: 0
+         immunises: 0
+         malades: 4980
+         populationInitiale: 5202
+         quarantaine: false
+         tauxMobilite: 0.01
+         morts: 5140
+         nom: EumelooosXXV
+      vaccins: 0
+      militairesDisponibles: 40
+      medecinsDisponibles: 100
+   urlCarte: C:/Users/user/workspace/Pandemie/images/atlantide-carte-1.jpg
+   Maladie: 
+      tauxLetalite: 0.005
+      parametreVirulence: 0.2
+      niveauDeSoinDeBase: 1
+      nom: Grippe Espagnole
+   ArbreTechnologique: 
+   -  coutDeLaRecherche: 720
+      modificateurVaccinsFabriqueParMedecin: 0
+      modificateurEfficaciteMedecins: 1.2
+      modificateurMilitairesPourQuarantaine: 1.0
+      modificateurEfficaciteMilitaires: 1.0
+      avancementDeLaRecherche: 0
+      typeDeRecherche: medicale
+      nom: planteMedicinale
+   -  coutDeLaRecherche: 2400
+      modificateurVaccinsFabriqueParMedecin: 0
+      modificateurEfficaciteMedecins: 2.4
+      modificateurMilitairesPourQuarantaine: 1.0
+      modificateurEfficaciteMilitaires: 1.0
+      avancementDeLaRecherche: 0
+      typeDeRecherche: medicale
+      nom: anesthesiant
+   -  coutDeLaRecherche: 5280
+      modificateurVaccinsFabriqueParMedecin: 4
+      modificateurEfficaciteMedecins: 1.5
+      modificateurMilitairesPourQuarantaine: 1.0
+      modificateurEfficaciteMilitaires: 1.0
+      avancementDeLaRecherche: 0
+      typeDeRecherche: medicale
+      nom: vaccins1
+   -  coutDeLaRecherche: 4400
+      modificateurVaccinsFabriqueParMedecin: 4
+      modificateurEfficaciteMedecins: 1.0
+      modificateurMilitairesPourQuarantaine: 1.0
+      modificateurEfficaciteMilitaires: 1.0
+      avancementDeLaRecherche: 0
+      typeDeRecherche: medicale
+      nom: vaccins2
+   -  coutDeLaRecherche: 3800
+      modificateurVaccinsFabriqueParMedecin: 4
+      modificateurEfficaciteMedecins: 1.0
+      modificateurMilitairesPourQuarantaine: 1.0
+      modificateurEfficaciteMilitaires: 1.0
+      avancementDeLaRecherche: 0
+      typeDeRecherche: medicale
+      nom: vaccins3
+   -  coutDeLaRecherche: 1040
+      modificateurVaccinsFabriqueParMedecin: 0
+      modificateurEfficaciteMedecins: 1.3
+      modificateurMilitairesPourQuarantaine: 1.0
+      modificateurEfficaciteMilitaires: 1.0
+      avancementDeLaRecherche: 0
+      typeDeRecherche: medicale
+      nom: savon
+   -  coutDeLaRecherche: 3500
+      modificateurVaccinsFabriqueParMedecin: 0
+      modificateurEfficaciteMedecins: 3.0
+      modificateurMilitairesPourQuarantaine: 1.0
+      modificateurEfficaciteMilitaires: 1.2
+      avancementDeLaRecherche: 0
+      typeDeRecherche: medicale
+      nom: penicilline
+   -  coutDeLaRecherche: 2400
+      modificateurVaccinsFabriqueParMedecin: 0
+      modificateurEfficaciteMedecins: 1.0
+      modificateurMilitairesPourQuarantaine: 0.3
+      modificateurEfficaciteMilitaires: 1.2
+      avancementDeLaRecherche: 0
+      typeDeRecherche: militaire
+      nom: barbeles
+   Pseudo: Entrez votre pseudo ici...
+   Metropole: 
+      ville: 
+      -  sains: 19535
+         medecins: 0
+         militaires: 0
+         immunises: 0
+         malades: 966
+         populationInitiale: 20501
+         quarantaine: false
+         tauxMobilite: 0.002347372016983066
+         morts: 19
+         nom: Thaumas
+      -  sains: 30876
+         medecins: 0
+         militaires: 0
+         immunises: 0
+         malades: 792
+         populationInitiale: 31668
+         quarantaine: false
+         tauxMobilite: 0.001244197429500742
+         morts: 17
+         nom: Phorcys
+      -  sains: 12260
+         medecins: 0
+         militaires: 0
+         immunises: 0
+         malades: 487
+         populationInitiale: 12747
+         quarantaine: false
+         tauxMobilite: 0.001901170555424621
+         morts: 6
+         nom: Neree
+      -  sains: 15099
+         medecins: 0
+         militaires: 0
+         immunises: 0
+         malades: 531
+         populationInitiale: 15630
+         quarantaine: false
+         tauxMobilite: 0.0016807529773338456
+         morts: 9
+         nom: Acheloos
+      -  sains: 7727
+         medecins: 0
+         militaires: 0
+         immunises: 0
+         malades: 584
+         populationInitiale: 8311
+         quarantaine: false
+         tauxMobilite: 0.0034987353968445145
+         morts: 9
+         nom: Eumelos
+      -  sains: 9206
+         medecins: 0
+         militaires: 0
+         immunises: 0
+         malades: 307
+         populationInitiale: 9513
+         quarantaine: false
+         tauxMobilite: 0.0016108654453569173
+         morts: 3
+         nom: Triton
+      -  sains: 16061
+         medecins: 0
+         militaires: 0
+         immunises: 0
+         malades: 831
+         populationInitiale: 16892
+         quarantaine: false
+         tauxMobilite: 0.002444879089615932
+         morts: 14
+         nom: Ampheres
+      -  sains: 24086
+         medecins: 0
+         militaires: 0
+         immunises: 0
+         malades: 1134
+         populationInitiale: 25220
+         quarantaine: false
+         tauxMobilite: 0.0021718377088305488
+         morts: 22
+         nom: Poseidon
+      -  sains: 17253
+         medecins: 0
+         militaires: 0
+         immunises: 0
+         malades: 751
+         populationInitiale: 18004
+         quarantaine: false
+         tauxMobilite: 0.002070709878258936
+         morts: 18
+         nom: Orichalque
+      -  sains: 12918
+         medecins: 0
+         militaires: 0
+         immunises: 0
+         malades: 448
+         populationInitiale: 13366
+         quarantaine: false
+         tauxMobilite: 0.0016572928383952008
+         morts: 8
+         nom: Cnossos
+      -  sains: 21889
+         medecins: 0
+         militaires: 0
+         immunises: 0
+         malades: 1621
+         populationInitiale: 23510
+         quarantaine: false
+         tauxMobilite: 0.003427307904919845
+         morts: 36
+         nom: Tethys
+      -  sains: 37099
+         medecins: 0
+         militaires: 0
+         immunises: 0
+         malades: 2712
+         populationInitiale: 39811
+         quarantaine: false
+         tauxMobilite: 0.0033613973360140745
+         morts: 52
+         nom: Atlas
+      -  sains: 26065
+         medecins: 0
+         militaires: 0
+         immunises: 0
+         malades: 14247
+         populationInitiale: 40312
+         quarantaine: false
+         tauxMobilite: 0.01
+         morts: 644
+         nom: Chronos
+      -  sains: 28624
+         medecins: 0
+         militaires: 0
+         immunises: 0
+         malades: 1821
+         populationInitiale: 30445
+         quarantaine: false
+         tauxMobilite: 0.0029726711338851665
+         morts: 43
+         nom: Ouranos
+      -  sains: 11479
+         medecins: 0
+         militaires: 0
+         immunises: 0
+         malades: 1224
+         populationInitiale: 12703
+         quarantaine: false
+         tauxMobilite: 0.004813884089838228
+         morts: 25
+         nom: Atarantes
+      -  sains: 12445
+         medecins: 0
+         militaires: 0
+         immunises: 0
+         malades: 1602
+         populationInitiale: 14047
+         quarantaine: false
+         tauxMobilite: 0.005616213516020838
+         morts: 33
+         nom: Dyris
+      -  sains: 6804
+         medecins: 0
+         militaires: 0
+         immunises: 0
+         malades: 10468
+         populationInitiale: 17272
+         quarantaine: false
+         tauxMobilite: 0.01
+         morts: 602
+         nom: Arethuse
+      -  sains: 3130
+         medecins: 0
+         militaires: 0
+         immunises: 0
+         malades: 9078
+         populationInitiale: 12208
+         quarantaine: false
+         tauxMobilite: 0.01
+         morts: 1786
+         nom: Karenai
+      -  sains: 3319
+         medecins: 0
+         militaires: 0
+         immunises: 0
+         malades: 6268
+         populationInitiale: 9587
+         quarantaine: false
+         tauxMobilite: 0.01
+         morts: 406
+         nom: Timonoi
+      -  sains: 8722
+         medecins: 0
+         militaires: 0
+         immunises: 0
+         malades: 755
+         populationInitiale: 9477
+         quarantaine: false
+         tauxMobilite: 0.003983328057402132
+         morts: 13
+         nom: Mestor
+      -  sains: 7354
+         medecins: 0
+         militaires: 0
+         immunises: 0
+         malades: 570
+         populationInitiale: 7924
+         quarantaine: false
+         tauxMobilite: 0.003583164812942366
+         morts: 7
+         nom: Nasamon
+      -  sains: 5508
+         medecins: 0
+         militaires: 0
+         immunises: 0
+         malades: 1864
+         populationInitiale: 7372
+         quarantaine: false
+         tauxMobilite: 0.01
+         morts: 36
+         nom: Loxytes
+      -  sains: 3424
+         medecins: 0
+         militaires: 0
+         immunises: 0
+         malades: 5754
+         populationInitiale: 9178
+         quarantaine: false
+         tauxMobilite: 0.01
+         morts: 375
+         nom: Adyris
+      -  sains: 2011
+         medecins: 0
+         militaires: 0
+         immunises: 0
+         malades: 4726
+         populationInitiale: 6737
+         quarantaine: false
+         tauxMobilite: 0.01
+         morts: 634
+         nom: Mneseas
+      -  sains: 5451
+         medecins: 0
+         militaires: 0
+         immunises: 0
+         malades: 2774
+         populationInitiale: 8225
+         quarantaine: false
+         tauxMobilite: 0.01
+         morts: 82
+         nom: Slatai
+      vaccins: 0
+      militairesDisponibles: 140
+      medecinsDisponibles: 360
+   urlCarte: C:/Users/user/workspace/Pandemie/images/atlantide-carte-1.jpg

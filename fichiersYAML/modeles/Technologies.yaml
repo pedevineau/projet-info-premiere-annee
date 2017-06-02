@@ -1,0 +1,65 @@
+ArbreTechnologique:
+  - nom: planteMedicinale
+    typeDeRecherche: medicale
+    avancementDeLaRecherche: 0
+    coutDeLaRecherche: 720
+    modificateurEfficaciteMedecins: 1.2
+    modificateurEfficaciteMilitaires: 1.0
+    modificateurVaccinsFabriqueParMedecin: 0
+    modificateurMilitairesPourQuarantaine: 1.0
+  - nom: anesthesiant
+    typeDeRecherche: medicale
+    coutDeLaRecherche: 2400
+    avancementDeLaRecherche: 0
+    modificateurEfficaciteMedecins: 2.4
+    modificateurEfficaciteMilitaires: 1.0
+    modificateurMilitairesPourQuarantaine: 1.0
+    modificateurVaccinsFabriqueParMedecin: 0
+  - nom: vaccins1
+    typeDeRecherche: medicale
+    coutDeLaRecherche: 5280
+    avancementDeLaRecherche: 0
+    modificateurEfficaciteMedecins: 1.5
+    modificateurEfficaciteMilitaires: 1.0
+    modificateurMilitairesPourQuarantaine: 1.0
+    modificateurVaccinsFabriqueParMedecin: 4
+  - nom: vaccins2
+    typeDeRecherche: medicale
+    coutDeLaRecherche: 4400
+    avancementDeLaRecherche: 0
+    modificateurEfficaciteMedecins: 1.0
+    modificateurEfficaciteMilitaires: 1.0
+    modificateurMilitairesPourQuarantaine: 1.0
+    modificateurVaccinsFabriqueParMedecin: 4
+  - nom: vaccins3
+    typeDeRecherche: medicale
+    coutDeLaRecherche: 3800
+    avancementDeLaRecherche: 0
+    modificateurEfficaciteMedecins: 1.0
+    modificateurEfficaciteMilitaires: 1.0
+    modificateurMilitairesPourQuarantaine: 1.0
+    modificateurVaccinsFabriqueParMedecin: 4
+  - nom: savon
+    typeDeRecherche: medicale
+    avancementDeLaRecherche: 0
+    coutDeLaRecherche: 1040
+    modificateurEfficaciteMedecins: 1.3
+    modificateurEfficaciteMilitaires: 1.0
+    modificateurVaccinsFabriqueParMedecin: 0
+    modificateurMilitairesPourQuarantaine: 1.0
+  - nom: penicilline
+    typeDeRecherche: medicale
+    avancementDeLaRecherche: 0
+    coutDeLaRecherche: 3500
+    modificateurEfficaciteMedecins: 3.0
+    modificateurEfficaciteMilitaires: 1.2
+    modificateurVaccinsFabriqueParMedecin: 0
+    modificateurMilitairesPourQuarantaine: 1.0
+  - nom: barbeles
+    typeDeRecherche: militaire
+    avancementDeLaRecherche: 0
+    coutDeLaRecherche: 2400
+    modificateurEfficaciteMedecins: 1.0
+    modificateurEfficaciteMilitaires: 1.2
+    modificateurVaccinsFabriqueParMedecin: 0
+    modificateurMilitairesPourQuarantaine: 0.3

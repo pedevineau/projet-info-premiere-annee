@@ -1,0 +1,24 @@
+Peste:
+    nom: Peste
+    niveauDeSoinDeBase: 1
+    monoSouche: true
+    tauxLetalite: 0.04
+    parametreVirulence: 0.2
+Grippe Espagnole:
+    nom: Grippe Espagnole
+    niveauDeSoinDeBase: 1
+    monoSouche: false
+    tauxLetalite: 0.005
+    parametreVirulence: 0.2
+Typhus:
+    nom: Typhus
+    niveauDeSoinDeBase: 1
+    monoSouche: true
+    tauxLetalite: 0.02
+    parametreVirulence: 0.15
+Diphterie:
+    nom: Diphterie
+    niveauDeSoinDeBase: 1
+    monoSouche: true
+    tauxLetalite: 0.06
+    parametreVirulence: 0.15

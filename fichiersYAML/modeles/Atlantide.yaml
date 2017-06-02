@@ -1,0 +1,260 @@
+# Structure YAML
+
+urlCarte: C:/Users/user/workspace/Pandemie/images/atlantide-carte-1.jpg
+
+Metropole:
+  nom: Atlantide
+  ville:
+    - nom: Thaumas
+      populationInitiale: 20320
+      sains: 20320
+      immunises: 0
+      malades: 0
+      morts: 0
+      medecins: 0
+      militaires: 0
+      tauxMobilite: 0.0
+      quarantaine: false
+    - nom: Phorcys
+      populationInitiale: 31655
+      sains: 31655
+      immunises: 0
+      malades: 0
+      morts: 0
+      medecins: 0
+      militaires: 0
+      tauxMobilite: 0.0
+      quarantaine: false
+    - nom: Neree
+      populationInitiale: 12600
+      sains: 12600
+      immunises: 0
+      malades: 0
+      morts: 0
+      medecins: 0
+      militaires: 0
+      tauxMobilite: 0.0
+      quarantaine: false
+    - nom: Acheloos
+      populationInitiale: 15500
+      sains: 15500
+      immunises: 0
+      malades: 0
+      morts: 0
+      medecins: 0
+      militaires: 0
+      tauxMobilite: 0.0
+      quarantaine: false
+    - nom: Eumelos
+      populationInitiale: 8190
+      sains: 8190
+      immunises: 0
+      malades: 0
+      morts: 0
+      medecins: 0
+      militaires: 0
+      tauxMobilite: 0.0
+      quarantaine: false
+    - nom: Triton
+      populationInitiale: 9317
+      sains: 9317
+      immunises: 0
+      malades: 0
+      morts: 0
+      medecins: 0
+      militaires: 0
+      tauxMobilite: 0.0
+      quarantaine: false
+    - nom: Ampheres
+      populationInitiale: 16570
+      sains: 16570
+      immunises: 0
+      malades: 0
+      morts: 0
+      medecins: 0
+      militaires: 0
+      tauxMobilite: 0.0
+      quarantaine: false
+    - nom: Poseidon
+      populationInitiale: 24260
+      sains: 24260
+      immunises: 0
+      malades: 0
+      morts: 0
+      medecins: 0
+      militaires: 0
+      tauxMobilite: 0.0
+      quarantaine: false
+    - nom: Orichalque
+      populationInitiale: 17800
+      sains: 17800
+      immunises: 0
+      malades: 0
+      morts: 0
+      medecins: 0
+      militaires: 0
+      tauxMobilite: 0.0
+      quarantaine: false
+    - nom: Cnossos
+      populationInitiale: 13200
+      sains: 13200
+      immunises: 0
+      malades: 0
+      morts: 0
+      medecins: 0
+      militaires: 0
+      tauxMobilite: 0.0
+      quarantaine: false
+    - nom: Tethys
+      populationInitiale: 23400
+      sains: 23400
+      immunises: 0
+      malades: 0
+      morts: 0
+      medecins: 0
+      militaires: 0
+      tauxMobilite: 0.1
+      quarantaine: false
+    - nom: Atlas
+      populationInitiale: 38600
+      sains: 38600
+      immunises: 0
+      malades: 0
+      morts: 0
+      medecins: 0
+      militaires: 0
+      tauxMobilite: 0.1
+      quarantaine: false
+    - nom: Chronos
+      populationInitiale: 44879
+      sains: 44879
+      immunises: 0
+      malades: 0
+      morts: 0
+      medecins: 0
+      militaires: 0
+      tauxMobilite: 0.0
+      quarantaine: false
+    - nom: Ouranos
+      populationInitiale: 29400
+      sains: 29400
+      immunises: 0
+      malades: 0
+      morts: 0
+      medecins: 0
+      militaires: 0
+      tauxMobilite: 0.0
+      quarantaine: false
+    - nom: Atarantes
+      populationInitiale: 12600
+      sains: 12600
+      immunises: 0
+      malades: 0
+      morts: 0
+      medecins: 0
+      militaires: 0
+      tauxMobilite: 0.0
+      quarantaine: false
+    - nom: Dyris
+      populationInitiale: 13400
+      sains: 13400
+      immunises: 0
+      malades: 0
+      morts: 0
+      medecins: 0
+      militaires: 0
+      tauxMobilite: 0.0
+      quarantaine: false
+    - nom: Arethuse
+      populationInitiale: 19450
+      sains: 19450
+      immunises: 0
+      malades: 0
+      morts: 0
+      medecins: 0
+      militaires: 0
+      tauxMobilite: 0.0
+      quarantaine: false
+    - nom: Karenai
+      populationInitiale: 16000
+      sains: 16000
+      immunises: 0
+      malades: 0
+      morts: 0
+      medecins: 0
+      militaires: 0
+      tauxMobilite: 0.0
+      quarantaine: false
+    - nom: Timonoi
+      populationInitiale: 9800
+      sains: 9800
+      immunises: 0
+      malades: 0
+      morts: 0
+      medecins: 0
+      militaires: 0
+      tauxMobilite: 0.0
+      quarantaine: false
+    - nom: Mestor
+      populationInitiale: 9000
+      sains: 9000
+      immunises: 0
+      malades: 0
+      morts: 0
+      medecins: 0
+      militaires: 0
+      tauxMobilite: 0.1
+      quarantaine: false
+    - nom: Nasamon
+      populationInitiale: 7800
+      sains: 7800
+      immunises: 0
+      malades: 0
+      morts: 0
+      medecins: 0
+      militaires: 0
+      tauxMobilite: 0.1
+      quarantaine: false
+    - nom: Loxytes
+      populationInitiale: 6431
+      sains: 6431
+      immunises: 0
+      malades: 0
+      morts: 0
+      medecins: 0
+      militaires: 0
+      tauxMobilite: 0.0
+      quarantaine: false
+    - nom: Adyris
+      populationInitiale: 9417
+      sains: 9417
+      immunises: 0
+      malades: 0
+      morts: 0
+      medecins: 0
+      militaires: 0
+      tauxMobilite: 0.0
+      quarantaine: false
+    - nom: Mneseas
+      populationInitiale: 7658
+      sains: 7658
+      immunises: 0
+      malades: 0
+      morts: 0
+      medecins: 0
+      militaires: 0
+      tauxMobilite: 0.0
+      quarantaine: false
+    - nom: Slatai
+      populationInitiale: 8312
+      sains: 8312
+      immunises: 0
+      malades: 0
+      morts: 0
+      medecins: 0
+      militaires: 0
+      tauxMobilite: 0.0
+      quarantaine: false
+  medecinsDisponibles: 360
+  militairesDisponibles: 140
+  vaccins: 0
